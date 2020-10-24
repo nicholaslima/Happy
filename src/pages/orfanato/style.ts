@@ -53,7 +53,7 @@ export const Container = styled.div`
         flex-direction:column;
         align-items: center;
         box-sizing: border-box;
-       
+      
         border-radius: 20px;
     }
 
@@ -146,7 +146,7 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-  
+        margin-bottom: 80px;
         #visite{
             margin-top: 24px;
         }
@@ -185,28 +185,7 @@ export const Container = styled.div`
             }
         }
 
-        .whatsButton{
-            margin-top: 64px;
-            padding-top: 19px;
-            padding-bottom: 19px;
-            background: #3CDC8C;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            border-radius: 20px;
-
-            p{
-                color: #fff; 
-                font-family: Nunito;
-                font-style: normal;
-                font-weight: 800;
-                font-size: 18px;
-                line-height: 26px;
-                width: 200px;
-                margin-left: 10px;
-            }
-        }
+       
     }
 
     h1,h3{

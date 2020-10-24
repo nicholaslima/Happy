@@ -9,6 +9,8 @@ import { FaWhatsapp } from 'react-icons/fa';
 import Icone from '../../images/icon.svg';
 import { Map,TileLayer} from 'react-leaflet';
 
+import 'leaflet/dist/leaflet.css';
+
 const Home:React.FC = () => {
     return(
         <>
